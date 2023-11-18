@@ -3,6 +3,8 @@ public class Pessoa {
     private String nome;  
     private int idade;
 
+    public void mudarNome(String nome){this.nome = nome};
+
     //métodos getters and setters
     public String getName() {
         return nome;
@@ -16,7 +18,6 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-
 
     //método construtor
     public Pessoa(String nome, int idade) {
