@@ -10,6 +10,8 @@ public class Aluno {
         System.out.println("Matricula cancelada");
     }
 
+    public void mudarCurso(String curso){this.curso = curso;}
+
     //métodos getters e setters----------------------------------------------------
     public int getMatricula() {
         return matricula;
